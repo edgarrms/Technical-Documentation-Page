@@ -1,31 +1,68 @@
+/* ----title inside navbar--- */
 #title {
-    float: right;
+    text-align: center;
     font-size: 30px;
-    color: white;
+    color: #ffffff;
 }
 
+/* ----nav bar---- */
 #navbar {
     color: black;
     list-style-type: none;
+    text-decoration: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #333;
+    width: 25%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(2, 0, 0);
+    position: fixed;
+    background: url(https://i.pinimg.com/564x/11/fc/90/11fc90072114c2c740c37b3967a8a31e.jpg);
 }
-  
-  #li {
-    float: left;
-  }
-  
-  #li a {
+
+  li a {
     display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
     text-decoration: none;
+    list-style-type: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
-  #li a:hover {
-    background-color: #111;
+  /* ----Change the link color on hover---- */
+  li a:hover {
+    color: #00ffb3;
+  }
+
+  /* ----list-style-type inside navbar----  */
+  
+
+  /* ----main info part of page---- */
+.main-section {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: auto;
+    color: white;
+}
+
+pre code {
+    
+    display: block;
+    
+  }
+
+/* ----background---- */
+  body {
+      background:url(https://i.pinimg.com/564x/e5/81/f4/e581f4b228ef901081888ee03d2cdedb.jpg) right top no-repeat,
+      url(https://i.pinimg.com/564x/f6/1f/4f/f61f4f2890b35e6c9882517e8b1e455f.jpg) right bottom no-repeat;
+      background-repeat: no-repeat;
+      background-position-x: right;
+      background-color: black;
+  }
+
+  /* ----Media Query---- */
+
+  @media only screen and (max-width: 800px) {
+    body {
+      background-color: rgb(0, 191, 255);
+    }
   }
