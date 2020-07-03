@@ -68,6 +68,11 @@ pre code {
       width: auto;
   }
 
+  /* source information */
+  #source {
+      color: white;
+  }
+
   /* ----Media Query---- */
 
   @media only screen and (max-width: 800px) {
