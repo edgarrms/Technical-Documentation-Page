@@ -13,153 +13,214 @@
 <body>
     <!-- nav bar  -->
     <nav id="navbar">
-        <header id="title">7+ Years of J Balvin</header>
+        <header id="title">CSS</header>
         <ul>
-            <li id="li-1"><a class="nav-link" href="#la_familia">La Familia</a></li>
-            <li id="li-2"><a class="nav-link" href="#energia">Energia</a></li>
-            <li id="li-3"><a class="nav-link" href="#vibras">Vibras</a></li>
-            <li id="li-4"><a class="nav-link" href="#oasis">Oasis</a></li>
-            <li id="li-5"><a class="nav-link" href="#colores">Colores</a></li>
+            <li id="li-1"><a class="nav-link" href="#la_familia">What is CSS?</a></li>
+            <li id="li-2"><a class="nav-link" href="#energia">Why Use CSS?</a></li>
+            <li id="li-3"><a class="nav-link" href="#vibras">CSS Syntax</a></li>
+            <li id="li-4"><a class="nav-link" href="#oasis">CSS Selectors</a></li>
+            <li id="li-5"><a class="nav-link" href="#colores">Three Ways to Insert CSS</a></li>
         </ul>
     </nav>
 
     <!-- main page info -->
     <main id="main-doc">
 
-        <!-- first J Balvin Album on the list -->
+        <!-- first on the list -->
         <section class="main-section" id="la_familia">
             <header>
-                <p>
-                    La Familia
-                    <!-- (2013)  -->
+                <p style="font-size: 20px;">
+                    What is CSS?
                 </p>
             </header>
-
-            <!-- imgage of albulm cover -->
-            <img src="https://i.pinimg.com/474x/70/86/da/7086da735979ee4c92fefd9d20fc0707.jpg" height="200"
-                width="auto">
-
             <p>
-                <li>6 AM</li>
-                <li>Yo Te Lo Dije</li>
-            </P>
-
-            <p>
-                J Balvin had some really good hits since 2013 with the release of his
-                <br> "La Familia" albulm.
-                Two really good songs from this albulm are those
-                <br>provided on top.
-
-            <pre><code>
-                
-                     <p> hello</p>
-                
-               </code></pre>
-
+                <li>CSS stands for Cascading Style Sheets</li>
+                <li>CSS describes how HTML elements are to be displayed on screen, paper, or in other media</li>
+                <li>CSS saves a lot of work. It can control the layout of multiple web pages all at once</li>
+                <li>External stylesheets are stored in CSS filesx</li>
             </p>
-
-
-
 
         </section>
 
-        <!-- second J Balvin Album on the list -->
+        <!-- second on the list -->
         <section class="main-section" id="energia">
             <header>
-                <p>
-                    Energia
-                    <!-- (2016) -->
+                <p style="font-size: 20px;">
+                    Why Use CSS?
+
                 </p>
             </header>
 
-            <!-- imgage of albulm cover -->
-            <img src="https://i.pinimg.com/474x/7c/4a/4a/7c4a4ac7b6e74f86365b1dafff5f6d70.jpg" height="200"
-                width="auto">
-
             <p>
-                <li>Bobo</li>
-                <li>Pierde Los Modales</li>
+                CSS is used to define styles for your web pages, including the design, layout and variations in display
+                for different devices and screen sizes.
             </p>
 
-            <code>
+            <p>
+                For example to change the background of a web page the following
+                <code style="background-color: white; color:black">background-color:</code>
+                code
+                would be used to change it to any
+                color. An image from a source can be used as a background too, using the <code
+                    style="background-color:white; color:black">background: url();</code> inside the <code
+                    style="background-color:white; color:black">(</code> <code
+                    style="background-color:white; color:black">)</code> an
+                image adress would be pasted. This would add that image to the body of the HTML page.
+            </p>
 
-                </code>
-
+            <!-- CSS example  -->
+            <p>
+                Example:
+            <p>styles.css</p>
+            <br>
+            <!-- had to use the <code> tag seperatly in order for for it to not be read as an HTMl tag -->
+            <code style="background-color:white; color:black">body</code> <code
+                style="background-color:white; color:black">{</code>
+            <br>
+            <code style="background-color:white; color:black">background-color: white</code>
+            <br>
+            <code style="background-color:white; color:black">}</code>
+            </p>
+            <!-- HTMl page for css example, for webpage only, not actual styles on code side -->
+            <p>index.html</p>
+            <div id="example-1">
+                <p>
+                    This is the background of a webpage, any color/image can be set as the background.
+                </p>
+            </div>
 
         </section>
 
-        <!-- third J Balvin Album on the list -->
+        <!-- third on the list -->
         <section class="main-section" id="vibras">
             <header>
-                <p>
-                    Vibras
-                    <!-- (2018) -->
+                <p style="font-size: 20px;">
+                    CSS Syntax
                 </p>
             </header>
-
-            <!-- imgage of albulm cover -->
-            <img src="https://i.pinimg.com/474x/12/2e/2f/122e2f4ff71cb887cb11299597365e31.jpg" height="200"
-                width="auto">
-
             <p>
-                <li>Ambiento</li>
-                <li>Ahora</li>
+                A CSS rule-set consists of a selector and a declaration block:
             </p>
 
-            <code>
+            <!-- image from w3schools -->
+            <p>
+                <a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank"><img
+                        src="https://www.w3schools.com/css/selector.gif"></a>
+            </p>
 
-                </code>
+            <p>
+                The selector points to the HTML element you want to style.
 
+                The declaration block contains one or more declarations separated by semicolons.
+
+                Each declaration includes a CSS property name and a value, separated by a colon.
+
+                Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly
+                braces.
+            </p>
 
         </section>
 
-        <!-- fourth J Balvin Album on the list -->
+        <!-- fourth on the list -->
         <section class="main-section" id="oasis">
             <header>
-                <p>
-                    Oasis
-                    <!-- (2019) -->
+                <p style="font-size: 20px;">
+                    CSS Selectors
                 </p>
             </header>
 
-            <!-- imgage of albulm cover -->
-            <img src="https://i.pinimg.com/474x/e8/8e/f0/e88ef01073c0ddb3e87d62124b7cc995.jpg" height="200"
-                width="auto">
-
             <p>
-                <li>Que Pretendes</li>
-                <li>Un Peso</li>
+                CSS selectors are used to "find" (or select) the HTML elements you want to style.
+
+                We can divide CSS selectors into five categories:
+
+                <li>Simple selectors (select elements based on name, id, class)</li>
+                <li> Combinator selectors (select elements based on a specific relationship between them)</li>
+                <li>Pseudo-class selectors (select elements based on a certain state)</li>
+                <li>Pseudo-elements selectors (select and style a part of an element)</li>
+                <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
             </p>
 
-            <code>
+            <p>
+                The CSS element Selector
+                <br>
+                The element selector selects HTML elements based on the element name.
+            </p>
 
-                </code>
+            <p>
+                The CSS id Selector
+                <br>
+                The id selector uses the id attribute of an HTML element to select a specific element.
 
+                The id of an element is unique within a page, so the id selector is used to select one unique element!
+
+                To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+            </p>
 
         </section>
 
-        <!-- fifth J Balvin Album on the list -->
+        <!-- fifth on the list -->
         <section class="main-section" id="colores">
             <header>
-                <p>
-                    Colores
-                    <!-- (2020) -->
+                <p style="font-size: 20px;">
+                    Three Ways to Insert CSS
                 </p>
             </header>
 
-            <!-- imgage of albulm cover -->
-            <img src="https://i.pinimg.com/474x/9a/39/94/9a39940834d36f6c4791f7275015a2e3.jpg" height="200"
-                width="auto">>
-
             <p>
-                <li>Amarillo</li>
-                <li>Azul</li>
+                There are three ways of inserting a style sheet:
+
+                <li> External CSS</li>
+                <li>Internal CSS</li>
+                <li> Inline CSS</li>
+            </p>
+            <p>External CSS
+                With an external style sheet, you can change the look of an entire website by changing just one file!
+
+                Each HTML page must include a reference to the external style sheet file inside the <code>link</code>
+                element, inside the head section. An external style sheet can be written in any text editor, and must be
+                saved with a .css extension.
+
+                The external .css file should not contain any HTML tags.
+            </p>
+            <p>
+                Internal CSS
+                An internal style sheet may be used if one single HTML page has a unique style.
+
+                The internal style is defined inside the <code>style</code> element, inside the head section.
             </p>
 
-            <code>
+            <p>
+                Inline CSS
+                <br>
+                An inline style may be used to apply a unique style for a single element.
 
-                </code>
+                To use inline styles, add the style attribute to the relevant element. The style attribute can contain
+                any CSS property.
+            </p>
 
+            <p>
+                Multiple Style Sheets
+                <br>
+                If some properties have been defined for the same selector (element) in different style sheets, the
+                value from the last read style sheet will be used.
+            </p>
+
+            <p>
+                Cascading Order
+                <br>
+                What style will be used when there is more than one style specified for an HTML element?
+
+                All the styles in a page will "cascade" into a new "virtual" style sheet by the following rules, where
+                number one has the highest priority:
+
+                <li> Inline style (inside an HTML element)</li>
+                <li>External and internal style sheets (in the head section)</li>
+                <li>Browser default</li>
+
+                So, an inline style has the highest priority, and will override external and internal styles and browser
+                defaults.
+            </p>
 
         </section>
 

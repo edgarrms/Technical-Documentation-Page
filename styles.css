@@ -17,7 +17,7 @@
     overflow: auto;
     background-color: rgb(2, 0, 0);
     position: fixed;
-    background: url(https://i.pinimg.com/564x/11/fc/90/11fc90072114c2c740c37b3967a8a31e.jpg);
+    background: url();
 }
 
   li a {
@@ -52,11 +52,20 @@ pre code {
 
 /* ----background---- */
   body {
-      background:url(https://i.pinimg.com/564x/e5/81/f4/e581f4b228ef901081888ee03d2cdedb.jpg) right top no-repeat,
-      url(https://i.pinimg.com/564x/f6/1f/4f/f61f4f2890b35e6c9882517e8b1e455f.jpg) right bottom no-repeat;
+      background:url() right top no-repeat,
+      url() right bottom no-repeat;
       background-repeat: no-repeat;
       background-position-x: right;
       background-color: black;
+  }
+
+  /* CSS example */
+  #example-1 {
+      background-color: white;
+      text-align: center;
+      color: black;
+      height: 320px;
+      width: auto;
   }
 
   /* ----Media Query---- */
